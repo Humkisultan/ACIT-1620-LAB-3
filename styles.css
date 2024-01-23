@@ -28,5 +28,30 @@ form button {
     margin-left: auto;
 }
 
+header {
 
- 
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+img{
+    width: 300px;
+}
+
+p{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
