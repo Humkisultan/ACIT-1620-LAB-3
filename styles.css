@@ -1,13 +1,15 @@
 html,
 body {
-    margin: 0;
+    margin:0;
     padding: 0;
     height: 100%;
 }
 
 form {
     border: 1px solid #ccc;
-    padding: 1rem;
+    margin-left: 8rem;
+    padding: 7rem;
+
 }
 
 input,
@@ -15,6 +17,7 @@ textarea {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
+    
 }
 
 form button {
@@ -41,24 +44,22 @@ footer{
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 1rem;
-    margin-bottom: auto;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
 
 }
 
-p{
-    max-width: 60%;
-    min-height: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 img{
-    max-width: 20%;
-    max-height: auto;
+    width: 180px;
+    height: 131px;
     margin-left: auto;
     float: left;
     padding: 10px;
+    margin-top: -10px;
 }
 
 a{
@@ -73,5 +74,32 @@ ul{
     list-style-type: none;
     float: left;
     text-align: right;
+    padding-left: 0rem;
+    margin-left: -1rem;
+    margin-bottom: 300px;
+    margin-right: 1rem;
+    line-height: 1.5;
 }
 
+@media screen and (max-width: 600px) {
+
+    ul {
+        display: flex;
+        margin-bottom: 1rem;
+        margin-right: 250px;
+        padding-left: 1rem;
+    
+    }
+    img{
+        margin-right: 0.5rem;
+    }
+    /* a{
+        border: 5px gray ;
+        
+    
+    } */
+    ul li:not(:last-child){
+        border-right: 1px solid gray;
+    }
+    
+}
